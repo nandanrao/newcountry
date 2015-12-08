@@ -1,0 +1,26 @@
+{
+  "name": "newcountry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*_test.js --watch",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "fs": "0.0.2",
+    "nock": "^3.4.0",
+    "should": "^8.0.0",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  }
+}
